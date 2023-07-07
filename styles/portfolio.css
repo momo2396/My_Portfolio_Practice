@@ -25,6 +25,7 @@ nav>ul>li {
 .nav-title{
 color: #181818;
 font-size: 30px; 
+padding-left: 30px;
 }
 nav a{
     text-decoration: none;
@@ -49,14 +50,73 @@ nav a{
 
 .header{
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-picture{
     width: 500px;
     /* height: 676px; */
     /* flex-shrink: 0; */
+}
+.banner-greettings{
+    color: #474747;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.banner-title
+{
+    color: #181818;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.banner-description{
+    color: #181818;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* about */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
 }
